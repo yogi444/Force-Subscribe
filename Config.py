@@ -20,6 +20,7 @@ class Config():
   SUDO_USERS = list(set(SUDO_USERS))
   # Others
   PORT = environ.get("PORT", "8080")
+  
 class Messages():
       HELP_MSG = [
         ".",
