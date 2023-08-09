@@ -1,5 +1,5 @@
 {
-    "name": "Force Subscribe Bot",
+    "name": "Force-Subscribe",
     "description": "Python based bot to Force Users to subscribe a channel.",
     "logo": "",
     "keywords": [
@@ -10,7 +10,7 @@
         "FSub",
         "ForceSubscribe"
     ],
-    "repository": "https://github.com/TheFlashSpeedster/ACE-Force-Subscribe",
+    "repository": "https://github.com/yogi444/Force-Subscribe",
     "website": "https://t.me/movies_areaz",
     "success_url": "https://t.me/movies_areaz",
     "env": {
