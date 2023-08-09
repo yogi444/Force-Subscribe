@@ -75,4 +75,4 @@ git clone https://github.com/TheFlashSpeedster/ACE-Force-Subscribe && cd ACE-For
 
 😏 DATABASE_URL not required for Heroku.
 
-## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)
+## [🌟 Join Our Channel 🌟](https://t.me/movies_areaz)
