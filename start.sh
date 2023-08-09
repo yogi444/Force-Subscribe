@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/yogi444/MartinBot.git /MartinBot
+  git clone https://github.com/yogi444/Force-Subscribe.git /Force-Subscribe
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Auto-search-tamil-bot
+  git clone $UPSTREAM_REPO /Force-Subscribe
 fi
-cd /Auto-search-tamil-bot
+cd /Force-Subscribe
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
-python3 bot.p
+python3 bot.py
