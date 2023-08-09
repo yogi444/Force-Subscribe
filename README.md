@@ -1,10 +1,10 @@
 # Force Subscribe Bot 🤖
 **A Telegram Bot to force users to join a specific channel before sending messages in a group.**
 
-## [🌟 Join Our Channel 🌟](https://t.me/ACE_ML)
+## [🌟 Join Our Channel 🌟](https://t.me/movies_areaz)
 
 ## 🎉 Whats New?
-- Heroku Eco Plan Support
+- Heroku & Render Support
 - Private Channel Support
 - Improvements and Bug fixes
 - Added Force Sub for Bot Updates Channel too
