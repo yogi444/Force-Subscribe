@@ -1,0 +1,13 @@
+version: "3.10"
+services:
+   worker:
+    build: .
+    environment:
+      BOT_TOKEN: $BOT_TOKEN
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      UPDATE_CHANNELS: $UPDATE_CHANNELS
+      SUDO_USERS: $SUDO_USERS
+      DATABASE_NAME: $DATABASE_NAME
+      DATABASE_URI: $DATABASE_URI
+      HEROKU_API_KEY: $HEROKU_API_KEY
