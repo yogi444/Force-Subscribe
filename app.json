@@ -1,5 +1,5 @@
 {
-    "name": "ACE - Force Subscribe Bot",
+    "name": "Force Subscribe Bot",
     "description": "Python based bot to Force Users to subscribe a channel.",
     "logo": "",
     "keywords": [
@@ -11,16 +11,16 @@
         "ForceSubscribe"
     ],
     "repository": "https://github.com/TheFlashSpeedster/ACE-Force-Subscribe",
-    "website": "https://t.me/ACE_ML",
-    "success_url": "https://t.me/ACE_ML",
+    "website": "https://t.me/movies_areaz",
+    "success_url": "https://t.me/movies_areaz",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
             "value": "",
             "required": true
         },
-        "APP_ID": {
-            "description": "You APP ID from my.telegram.org",
+        "API_ID": {
+            "description": "You API ID from my.telegram.org",
             "value": "",
             "required": true
         },
