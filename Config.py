@@ -5,18 +5,18 @@ class Config():
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
   # Bot Updates Channel Username (without @)
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "ACE_ML")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "movies_areaz")
 
   # PostgresSQL DB URL (Use ElephantSQL)
   DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
   # API & HASH (Use my.telegram.org)
-  APP_ID = os.environ.get("APP_ID", 123456)
-  API_HASH = os.environ.get("API_HASH", "abcdefgh")
+  API_ID = os.environ.get("API_ID", "")
+  API_HASH = os.environ.get("API_HASH", "")
 
   # Sudo users (Put your User ID)
-  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "123456").split()))
-  SUDO_USERS.append(5524391658)
+  SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "").split()))
+  SUDO_USERS.append()
   SUDO_USERS = list(set(SUDO_USERS))
 
 class Messages():
