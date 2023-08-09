@@ -18,7 +18,8 @@ class Config():
   SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS", "").split()))
   SUDO_USERS.append()
   SUDO_USERS = list(set(SUDO_USERS))
-
+  # Others
+  PORT = environ.get("PORT", "8080")
 class Messages():
       HELP_MSG = [
         ".",
